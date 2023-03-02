@@ -1,11 +1,3 @@
-terraform {
-  cloud {
-    organization = "preston"
-    workspaces {
-      name = "awsvpc-terraform"
-    }
-  }
-}
 provider "aws" {
     region = "us-east-1"
 }
