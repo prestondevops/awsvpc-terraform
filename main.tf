@@ -27,3 +27,16 @@ resource "aws_instance" "web4" {
   
 }
 variable "webInstanceType"{}
+
+output "web1IP" {
+  value = aws_instance.web2.public_ip
+  
+}
+output "web2IP" {
+  value = aws_instance.web3.public_ip
+  
+}
+output "web2IP" {
+  value = aws_instance.web4.public_ip
+  
+}
