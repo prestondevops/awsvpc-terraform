@@ -1,2 +1,2 @@
 
-webInstanceType = "t2.micro"
+webInstanceType = "t2.medium"
