@@ -36,7 +36,7 @@ output "web2IP" {
   value = aws_instance.web3.public_ip
   
 }
-output "web2IP" {
+output "web3IP" {
   value = aws_instance.web4.public_ip
   
 }
