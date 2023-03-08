@@ -1,7 +1,7 @@
 terraform {
 
   cloud {
-    organization = "stanmoriasi"
+    organization = "preston"
 
     workspaces {
       name = "awsvpc-terraform"
