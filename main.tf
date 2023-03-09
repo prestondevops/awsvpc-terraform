@@ -1,5 +1,5 @@
 provider "aws" {
-<<<<<<< HEAD
+
     region = "us-east-1"
 }
 
@@ -40,7 +40,6 @@ output "web2IP" {
 output "web3IP" {
   value = aws_instance.web4.public_ip
   
-=======
   region = var.aws_region
 }
 resource "aws_vpc" "TerraVpc" {
@@ -133,5 +132,4 @@ resource "aws_route_table_association" "Private_association_1" {
 resource "aws_route_table_association" "Private_association_2" {
   subnet_id = aws_subnet.Private_Subnet_2.id
   route_table_id = aws_route_table.TerraPrivateRouteTable.id
->>>>>>> origin/olaidebranch
 }
